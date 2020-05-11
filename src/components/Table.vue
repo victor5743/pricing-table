@@ -1,13 +1,21 @@
 <template>
 	<div>
-		<table>
+		<table class="w-full">
 			<thead>
 				<tr>
-					<th>#</th>
-					<th>First</th>
-					<th>Last</th>
-					<th>Email</th>
-					<th>Location</th>
+					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">#</th>
+					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">
+						<Price :title="'Hobby'" :price="15" />
+					</th>
+					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">
+						<Price :title="'Growth'" :price="25" />
+					</th>
+					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">
+						<Price :title="'Business'" :price="50" />
+					</th>
+					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">
+						<Price :title="'Enterprise'" :price="90" />
+					</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -38,5 +46,11 @@
 </template>
 
 <script>
-export default {};
+import Price from './Price';
+
+export default {
+	components: {
+		Price,
+	},
+};
 </script>
