@@ -1,6 +1,39 @@
 <template>
 	<div>
-		<h1>TEXTO</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>First</th>
+					<th>Last</th>
+					<th>Email</th>
+					<th>Location</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>John</td>
+					<td>Smith</td>
+					<td>jonh@smith.com</td>
+					<td>Canada</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Jane</td>
+					<td>Doe</td>
+					<td>jona@doe.com</td>
+					<td>United States</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Michael</td>
+					<td>Scott</td>
+					<td>michael@scott.com</td>
+					<td>England</td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
 </template>
 
