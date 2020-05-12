@@ -3,7 +3,16 @@
 		<table class="w-full">
 			<thead>
 				<tr>
-					<th class="w-1/5 bg-gray-100 text-left align-top p-4">#</th>
+					<!-- Toggle Button -->
+					<th class="w-1/5 bg-gray-100 text-left align-top p-4">
+						<toggle-button
+							:value="false"
+							color="#3183cd"
+							:sync="false"
+							:speed="200"
+							:labels="true"
+						/>
+					</th>
 					<th class="thead">
 						<Price :title="'Hobby'" :price="15" />
 					</th>
@@ -170,7 +179,7 @@
 					</td>
 				</tr>
 				<tr class="even:bg-gray-300">
-					<td class="trow text-left">SSL Security</td>
+					<td class="trow text-left">Same Day Delivery</td>
 					<td class="trow text-center"></td>
 					<td class="trow text-center"></td>
 					<td class="trow text-center">
@@ -181,7 +190,7 @@
 					</td>
 				</tr>
 				<tr class="even:bg-gray-300">
-					<td class="trow text-left">SSL Security</td>
+					<td class="trow text-left">Contributors</td>
 					<td class="trow text-center"></td>
 					<td class="trow text-center"></td>
 					<td class="trow text-center"></td>
