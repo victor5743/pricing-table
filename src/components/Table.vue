@@ -19,6 +19,7 @@
 				</tr>
 			</thead>
 			<tbody>
+				<!-- First section -->
 				<tr class="even:bg-gray-300">
 					<td class="trow text-left">Shipping Discount</td>
 					<td class="trow text-center">$19</td>
@@ -66,6 +67,128 @@
 						<p class="text-xs">/month</p>
 					</td>
 				</tr>
+				<!-- Separation -->
+				<tr class="bg-gray-200 border border-gray-400">
+					<td class="uppercase tracking-wide font-semibold px-4 py-6 text-left">
+						Shipping
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<!-- Second section -->
+				<tr class="even:bg-gray-300">
+					<td class="trow text-left">Free Custom Domain</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+				</tr>
+				<tr class="even:bg-gray-300">
+					<td class="trow text-left">SSL Security</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+				</tr>
+				<tr class="even:bg-gray-300">
+					<td class="trow text-left">Unlimited Bandwith and Storage</td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+				</tr>
+				<tr class="even:bg-gray-300">
+					<td class="trow text-left">SEO Features for Site Visibility</td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+				</tr>
+				<!-- Separation -->
+				<tr class="bg-gray-200 border border-gray-400">
+					<td class="uppercase tracking-wide font-semibold px-4 py-6 text-left">
+						More Features
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<!-- Third section -->
+				<tr class="even:bg-gray-300">
+					<td class="trow text-left">Shipping Discount</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+				</tr>
+				<tr class="even:bg-gray-300">
+					<td class="trow text-left">Print Shipping Labels</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+				</tr>
+				<tr class="even:bg-gray-300">
+					<td class="trow text-left">SSL Security</td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+				</tr>
+				<tr class="even:bg-gray-300">
+					<td class="trow text-left">SSL Security</td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center"></td>
+					<td class="trow text-center">
+						<Checkmark />
+					</td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
@@ -73,10 +196,12 @@
 
 <script>
 import Price from './Price';
+import Checkmark from './Checkmark';
 
 export default {
 	components: {
 		Price,
+		Checkmark,
 	},
 };
 </script>
