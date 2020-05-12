@@ -3,8 +3,10 @@
 		<div class="uppercase tracking-wide font-bold text-gray-700">{{ title }}</div>
 		<div class="mt-3">
 			<span class="text-lg">$</span>
-			<span class="font-bold text-4xl ml-1">{{ price }}</span>
-			<span class="ml-2 text-sm">/ moth</span>
+			<span class="font-bold text-4xl ml-1">
+				{{ !isMonthly ? plans.price.perYear : plans.price.perMonth }}
+			</span>
+			<span class="ml-2 text-sm">/ month</span>
 		</div>
 		<div class="mt-3">
 			<a
@@ -18,6 +20,11 @@
 
 <script>
 export default {
-	props: ['title', 'price'],
+	props: {
+		title: String,
+		price: Number,
+		isMonthly: Boolean,
+		plans: Object,
+	},
 };
 </script>
