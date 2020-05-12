@@ -3,42 +3,68 @@
 		<table class="w-full">
 			<thead>
 				<tr>
-					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">#</th>
-					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">
+					<th class="w-1/5 bg-gray-100 text-left align-top p-4">#</th>
+					<th class="thead">
 						<Price :title="'Hobby'" :price="15" />
 					</th>
-					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">
+					<th class="thead">
 						<Price :title="'Growth'" :price="25" />
 					</th>
-					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">
+					<th class="thead">
 						<Price :title="'Business'" :price="50" />
 					</th>
-					<th class="w-1/5 bg-gray-200 text-center border border-gray-400 p-4">
+					<th class="thead">
 						<Price :title="'Enterprise'" :price="90" />
 					</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td>1</td>
-					<td>John</td>
-					<td>Smith</td>
-					<td>jonh@smith.com</td>
-					<td>Canada</td>
+					<td class="trow text-left">Shipping Discount</td>
+					<td class="trow text-center">$19</td>
+					<td class="trow text-center">$29</td>
+					<td class="trow text-center">$39</td>
+					<td class="trow text-center">$49</td>
 				</tr>
 				<tr>
-					<td>2</td>
-					<td>Jane</td>
-					<td>Doe</td>
-					<td>jona@doe.com</td>
-					<td>United States</td>
+					<td class="trow text-left">Print Shipping Labels</td>
+					<td class="trow text-center">3</td>
+					<td class="trow text-center">4</td>
+					<td class="trow text-center">5</td>
+					<td class="trow text-center">6</td>
 				</tr>
 				<tr>
-					<td>3</td>
-					<td>Michael</td>
-					<td>Scott</td>
-					<td>michael@scott.com</td>
-					<td>England</td>
+					<td class="trow text-left">Same Day Delivery</td>
+					<td class="trow text-center">7</td>
+					<td class="trow text-center">8</td>
+					<td class="trow text-center">9</td>
+					<td class="trow text-center">10</td>
+				</tr>
+				<tr>
+					<td class="trow text-left">Contributors</td>
+					<td class="trow text-center">11</td>
+					<td class="trow text-center">12</td>
+					<td class="trow text-center">13</td>
+					<td class="trow text-center">14</td>
+				</tr>
+				<tr>
+					<td class="trow text-left">API Cslls</td>
+					<td class="trow text-center">
+						<p class="font-bold text-gray-900 text-lg">1,000 calls</p>
+						<p class="text-xs">/month</p>
+					</td>
+					<td class="trow text-center">
+						<p class="font-bold text-gray-900 text-lg">5,000 calls</p>
+						<p class="text-xs">/month</p>
+					</td>
+					<td class="trow text-center">
+						<p class="font-bold text-gray-900 text-lg">10,000 calls</p>
+						<p class="text-xs">/month</p>
+					</td>
+					<td class="trow text-center">
+						<p class="font-bold text-gray-900 text-lg">50,000 calls</p>
+						<p class="text-xs">/month</p>
+					</td>
 				</tr>
 			</tbody>
 		</table>

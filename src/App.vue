@@ -1,5 +1,5 @@
 <template>
-	<div class="font-open-sans p-6">
+	<div class="font-open-sans p-6 bg-gray-100">
 		<Table />
 	</div>
 </template>
