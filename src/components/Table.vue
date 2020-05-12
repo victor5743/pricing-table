@@ -19,35 +19,35 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
+				<tr class="even:bg-gray-300">
 					<td class="trow text-left">Shipping Discount</td>
 					<td class="trow text-center">$19</td>
 					<td class="trow text-center">$29</td>
 					<td class="trow text-center">$39</td>
 					<td class="trow text-center">$49</td>
 				</tr>
-				<tr>
+				<tr class="even:bg-gray-300">
 					<td class="trow text-left">Print Shipping Labels</td>
 					<td class="trow text-center">3</td>
 					<td class="trow text-center">4</td>
 					<td class="trow text-center">5</td>
 					<td class="trow text-center">6</td>
 				</tr>
-				<tr>
+				<tr class="even:bg-gray-300">
 					<td class="trow text-left">Same Day Delivery</td>
 					<td class="trow text-center">7</td>
 					<td class="trow text-center">8</td>
 					<td class="trow text-center">9</td>
 					<td class="trow text-center">10</td>
 				</tr>
-				<tr>
+				<tr class="even:bg-gray-300">
 					<td class="trow text-left">Contributors</td>
 					<td class="trow text-center">11</td>
 					<td class="trow text-center">12</td>
 					<td class="trow text-center">13</td>
 					<td class="trow text-center">14</td>
 				</tr>
-				<tr>
+				<tr class="even:bg-gray-300">
 					<td class="trow text-left">API Cslls</td>
 					<td class="trow text-center">
 						<p class="font-bold text-gray-900 text-lg">1,000 calls</p>
