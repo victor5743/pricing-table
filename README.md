@@ -1,24 +1,9 @@
 # pricing-table
 
-## Project setup
-```
-npm install
-```
+Responsive UI interface using Vue and Tailwind CSS.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Application preview:
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<p align="center"> 
+  <img src="./src/assets/preview.jpg" /> 
+</p>
